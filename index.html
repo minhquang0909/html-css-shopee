@@ -46,7 +46,7 @@
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
-                                <i class="header__navbar-icon fa-sharp fa-solid fa-bell"></i>
+                                <i class="header__navbar-icon fa-sharp far fa-bell"></i>
                                 Thông báo
                             </a>
                             <!-- Header_notify -->
@@ -96,8 +96,26 @@
                                 Trợ giúp
                             </a>
                         </li>
-                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
-                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-1/311460186_5270813923028091_5943136881481768762_n.jpg?stp=c30.0.60.60a_cp0_dst-jpg_p60x60&_nc_cat=104&ccb=1-7&_nc_sid=7206a8&_nc_ohc=MOPawBGVmEwAX_QM-Sk&_nc_ht=scontent.fhan2-5.fna&oh=00_AfCfSfNfvvfQHdViz5Ab-YEmzHbXCbzg5QHA1Pb6KGufTw&oe=6404C50C" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Quang Pham</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="" >Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="" >Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="" >Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="" >Đăng xuât</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>  
                 <!-- Header with search -->
@@ -215,7 +233,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                                <a href="" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
                             </div>
                         </div>
                     </div>
@@ -223,10 +241,61 @@
             </div>
         </header>
 
-        <div class="container">
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active ">
+                                    <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>         
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class=" home-filter__btn btn">Phổ biến</button>
+                            <button class=" home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class=" home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-num-current">1</span>
+                                    /14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fa-solid fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-
+            
         <footer class="footer">
 
         </footer>

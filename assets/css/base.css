@@ -20,7 +20,7 @@ html {
     line-height: 1.6rem;
     box-sizing: border-box;
 }
-
+/* Responsive */
 .grid {
     width: 1200px;   
     max-width: 100%;
@@ -34,7 +34,24 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
 }
+
+
+/* Test */
+
+.grid__column-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+
+.grid__column-10 {
+    width: 83.3333%;
+
+}
+
 /* Animation */
 @keyframes fadeIn {
     from {
@@ -85,7 +102,7 @@ html {
 }
 
 .btn {
-    min-width: 124px;
+    min-width: 90px;
     height: 34px;
     text-decoration: none;
     border: none;
@@ -95,7 +112,7 @@ html {
     padding: 0 12px;
     cursor: pointer;
     font-size: 1.5rem;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 
@@ -119,4 +136,20 @@ html {
     color: #787676;
     cursor: default;
     background-color:#c3c3c3;
+}
+
+/* Selection */
+
+.select-input {
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    min-width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
